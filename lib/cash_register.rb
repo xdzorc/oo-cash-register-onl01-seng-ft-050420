@@ -15,7 +15,7 @@ class CashRegister
   # end
   
    def add_item(title,price,quantity=1)
-    @items =[]
+    # @items =[]
     @total +=  price*quantity
     # quantity.times {@@items << title}
      quantity.times {@items << title}
